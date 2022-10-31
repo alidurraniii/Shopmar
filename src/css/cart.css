@@ -1,0 +1,16 @@
+.cart-title{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.list-group-item{
+    text-align: left;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cart-buttons
+{
+
+    margin: 10px;
+
+}

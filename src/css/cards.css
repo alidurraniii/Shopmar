@@ -1,0 +1,89 @@
+.hbtn {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding: 8px 20px;
+    margin: 0px 3px 6px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    z-index: 0;
+} 
+
+
+.hbtn i {
+    padding-right: 8px;
+} 
+
+
+.hb-fill-top-bg-br::before {
+    position: absolute;
+    content: "";
+    background:rgb(60, 60, 60)    ;
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: auto auto 0px 0px;
+    width: 100%;
+    height: 0px;
+    opacity: 1;
+    border: 2px solid rgb(255, 255, 255);
+} 
+
+
+.hb-fill-top-bg-br:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+} 
+
+
+.hb-fill-top-bg-br:active {
+    color: white;
+    background:rgb(60, 60, 60);
+    transition: all 0.3s ease 0s;
+} 
+
+.card-image{
+    transform: scale(0.75,0.75);
+    transition: all 0.3s ease-out;
+
+}
+
+.card{
+    overflow: hidden;
+    
+    background-color: radial-gradient(#111 50% , #000 100%);
+}
+
+.main-card{
+
+
+    margin: 10px;
+}
+
+
+.card:hover .card-image {
+    transform: scale(1,1) translateY(-20px);
+    opacity: 0.3;
+
+}
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: inherit;
+}
+.card-desc{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: revert;
+}
+.card-price{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: inherit;
+
+}
+
+
